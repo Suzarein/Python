@@ -45,7 +45,7 @@ def Scan(IPAddress, Port):
     print('Number of Closed Ports: ' + str(O))
 
 try:
-    IPAddress = input('Enter Website Name/IP Address: ')
+    IPAddress = input('Enter Website Name/IP Address(For 2 or More Target use Comma(,)): ')
     Port = input('Enter Number of Ports (Default is 100: )')
     Port = DefaultNumber(Port)
     Seperator(IPAddress)
